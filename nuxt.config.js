@@ -11,7 +11,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Agustín Millán Jiménez\'s Portfolio' },
       { hid: 'og:title', name: 'og:title', content: 'Portfolio' },
-      { hid: 'og:image', name: 'og:image', content: '/' }
+      { hid: 'og:image', name: 'og:image', content: '/software-engineer.svg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

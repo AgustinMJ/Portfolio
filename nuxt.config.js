@@ -1,3 +1,4 @@
+import ogImage from '@/assets/software-engineer.svg'
 export default {
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -11,7 +12,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Agustín Millán Jiménez\'s Portfolio' },
       { hid: 'og:title', name: 'og:title', content: 'Portfolio' },
-      { hid: 'og:image', name: 'og:image', content: '@/assets/software-engineer.svg' }
+      { hid: 'og:image', name: 'og:image', content: this.BASE_URL + ogImage }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

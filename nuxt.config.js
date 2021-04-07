@@ -9,7 +9,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Agustín Millán Jiménez\'s Portfolio' },
+      { hid: 'og:title', name: 'og:title', content: 'Portfolio' },
+      { hid: 'og:image', name: 'og:image', content: '@/assets/software-engineer.svg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

@@ -19,7 +19,7 @@
           id="mainFigure"
           class="mx-auto z-30 relative"
           alt="Software Engineer"
-          src="./../assets/software-engineer.svg"
+          src="~/assets/software-engineer.svg"
           style="height: 30rem"
           @mouseenter="oscillate"
         >
@@ -28,21 +28,21 @@
         id="cv"
         class="mx-auto fade-in relative"
         alt="Curriculum Vitae"
-        src="./../assets/curriculum-vitae.svg"
+        src="~/assets/curriculum-vitae.svg"
         style="width: 30rem"
       >
       <img
         id="name"
         class="w-96 mx-auto mt-8 fade-in relative"
         alt="Name"
-        src="./../assets/name.svg"
+        src="~/assets/name.svg"
         style="animation-duration: 3.7s;"
       >
       <img
         id="title"
         class="w-72 mx-auto mt-8 fade-in z-10 relative"
         alt="Title"
-        src="./../assets/title.svg"
+        src="~/assets/title.svg"
         style="animation-duration: 3.9s;"
       >
       <h1 id="beginText" class="mt-12 text-gray-400 text-2xl font-bold text-center constant-fade-in relative">
@@ -62,7 +62,7 @@
               <img
                 id="profileImage"
                 alt="profile image"
-                src="./../assets/Profile.png"
+                src="~/assets/Profile.png"
                 class="rounded-full w-64 h-64"
               >
             </div>

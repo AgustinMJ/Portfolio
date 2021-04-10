@@ -75,7 +75,6 @@ export default Vue.extend({
 <style scoped>
 .thread {
     width: 2px;
-    height: 400px;
     position: fixed;
     top: -100px;
     background-color: #737373;

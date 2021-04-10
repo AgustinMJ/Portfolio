@@ -4,11 +4,11 @@
     <Hanger :bus="bus" :item-id="'educationNavItem'" :visible="visibleThreads" />
     <Hanger :bus="bus" :item-id="'skenNavItem'" :visible="visibleThreads" />
     <Hanger :bus="bus" :item-id="'exprNavItem'" :visible="visibleThreads" />
-    <div id="navbar" class="navItem w-full mb-12 px-20 flex justify-between space-x-28">
+    <div id="navbar" class="navItem w-full mb-8 xl:mb-12 px-4 md:px-8 lg:px-14 xl:px-20 flex justify-between space-x-4 md:space-x-10 lg:space-x-16 xl:space-x-24 2xl:space-x-28">
       <NavItem id="profileNavItem" :text="'Profile'" :active="activeIndex === 1" @hovered="bounceUp('profileNavItem')" @clicked="$emit('clicked', 1)" />
       <NavItem id="educationNavItem" :text="'Education'" :active="activeIndex === 2" @hovered="bounceUp('educationNavItem')" @clicked="$emit('clicked', 2)" />
-      <NavItem id="skenNavItem" :text="'Skills & Endorsements'" :active="activeIndex === 3" @hovered="bounceUp('skenNavItem')" @clicked="$emit('clicked', 3)" />
-      <NavItem id="exprNavItem" :text="'Experience & Projects'" :active="activeIndex === 4" @hovered="bounceUp('exprNavItem')" @clicked="$emit('clicked', 4)" />
+      <NavItem id="skenNavItem" :text="'Skills'" :active="activeIndex === 3" @hovered="bounceUp('skenNavItem')" @clicked="$emit('clicked', 3)" />
+      <NavItem id="exprNavItem" :text="'Projects'" :active="activeIndex === 4" @hovered="bounceUp('exprNavItem')" @clicked="$emit('clicked', 4)" />
     </div>
   </div>
 </template>

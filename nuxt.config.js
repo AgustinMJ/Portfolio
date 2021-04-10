@@ -1,3 +1,5 @@
+import 'tailwindcss/defaultTheme'
+
 export default {
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -40,6 +42,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    'debounce/index.js'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

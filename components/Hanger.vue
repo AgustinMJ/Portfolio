@@ -54,14 +54,15 @@ export default Vue.extend({
       const thread = document.getElementById(this.itemId + 'thread')
       if (!this.double) {
         const x = itemPosition!.x + itemPosition!.width / 2
-        const y = itemPosition!.y + itemPosition!.height / 2 + 100
+        const height = itemPosition!.height > 0 ? itemPosition!.height : window.innerHeight * 0.2
+        const y = 100 + itemPosition!.y + height / 2
         thread!.style.left = x.toString() + 'px'
         thread!.style.height = y.toString() + 'px'
       } else {
         const thread2 = document.getElementById(this.itemId + 'thread2')
         const x1 = itemPosition!.x + itemPosition!.width / 6
         const x2 = itemPosition!.x + itemPosition!.width * 5 / 6
-        const y = itemPosition!.y + itemPosition!.height / 2 + 100
+        const y = 100 + itemPosition!.y + itemPosition!.height / 2
         thread!.style.left = x1.toString() + 'px'
         thread!.style.height = y.toString() + 'px'
         thread2!.style.left = x2.toString() + 'px'
@@ -85,7 +86,7 @@ export default Vue.extend({
 .fade-progressively-enter-active, .fade-progressively-leave-active {
     transition: all 0.5s;
 }
-.fade-progressively-enter, .fade-progressively-leave-to /* .fade-leave-active below version 2.1.8 */ {
+.fade-progressively-enter, .fade-progressively-leave-to {
   transform: translateY(-100vh);
 }
 </style>

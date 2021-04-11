@@ -54,7 +54,7 @@
         :double="true"
         class="bounce-in-top"
       />
-      <div class="px-4 md:px-8 lg:px-14 xl:px-20 mx-auto mt-32 lg:mt-40 xl:mt-60 2xl:mt-72 max-w-7xl">
+      <div class="px-4 md:px-8 lg:px-14 xl:px-20 mx-auto mt-24 lg:mt-32 xl:mt-40 2xl:mt-60 max-w-7xl">
         <div id="agusCard" class="bg-gray-100 rounded-3xl flex flex-col p-4 lg:p-8 xl:p-12 space-y-2 md:space-y-4 xl:space-y-8 bounce-in-top">
           <div class="flex">
             <div class="rounded-full border-2 border-gray-600 self-center">

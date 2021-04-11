@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-2 xl:p-3 2xl:p-4 bg-gray-100 rounded-full flex-grow text-center text-gray-600 shadow-lg max-h-8 xs:max-h-10 md:max-h-12 xl:max-h-14 2xl:max-h-16 relative"
+    class="p-2 xl:p-3 2xl:p-4 bg-gray-100 rounded-full flex-grow text-center text-gray-600 shadow-lg max-h-8 xs:max-h-12 xl:max-h-14 2xl:max-h-16 relative"
     :class="{'text-gray-900' : active, 'mt-2 md:mt-4 lg:mt-6 xl:mt-12' : active}"
     @mouseenter="$emit('hovered')"
     @click="$emit('clicked')"

@@ -54,7 +54,7 @@
         :double="true"
         class="bounce-in-top"
       />
-      <div class="px-4 md:px-8 lg:px-14 xl:px-20 mx-auto mt-32 lg:mt-48 xl:mt-56 2xl:mt-60 max-w-7xl">
+      <div class="px-4 md:px-8 lg:px-14 xl:px-20 mx-auto mt-32 lg:mt-44 xl:mt-52 2xl:mt-60 max-w-7xl">
         <div id="agusCard" class="bg-gray-100 rounded-3xl flex flex-col p-4 lg:p-8 xl:p-12 space-y-2 md:space-y-4 xl:space-y-8 bounce-in-top">
           <div class="flex">
             <div class="rounded-full border-2 border-gray-600 self-center">
@@ -62,7 +62,7 @@
                 id="profileImage"
                 alt="profile image"
                 src="~/assets/Profile.png"
-                class="rounded-full w-32 md:w-44 lg:w-60 "
+                class="rounded-full w-32 lg:w-44 xl:w-52 2xl:w-60 "
               >
             </div>
             <div class="flex flex-col justify-center text-gray-900">
